@@ -1,0 +1,26 @@
+=========== features ============ 
+:: Customer ::
+carosel 
+sorting feature 
+pagination <- 2 3 4 -> 
+filter  
+add to cart
+buy
+payment gateway -> razor pay
+track order
+review and rate product 
+
+:: Admin :: 
+admin panel 
+add product 
+manage order
+change order status
+
+
+=========== packages installed =======
+Tailwind css , 
+mui icons
+mui materials
+
+tailwind - navbar 
+react alice carousel -> npm i react-alice-carousel
