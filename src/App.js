@@ -3,6 +3,7 @@ import "./index.css";
 import Product from "./customer/components/Product/Product";
 import { Route, Routes } from "react-router-dom";
 import CustomerRouters from "./customer/Routers/CustomerRouters";
+import AdminRouters from "./customer/Routers/AdminRouters";
 const App = () => {
 
     return (
@@ -10,7 +11,7 @@ const App = () => {
 
             <Routes>
                 <Route path="/*" element={<CustomerRouters />} ></Route>
-
+                <Route path="/admin/*" element={<AdminRouters />}></Route>
             </Routes>
 
             {/* <div> */}

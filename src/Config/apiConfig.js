@@ -10,4 +10,5 @@ export const api = axios.create({
         "Authorization": `Bearer ${jwt}`,
         "Content-Type": "application/json"
     }
-})
+});
+
